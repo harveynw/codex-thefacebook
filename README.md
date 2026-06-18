@@ -37,8 +37,10 @@ As far as the code itself:
 <hr>
 
 <img src="img/screengrab_1.png"/>
-<small>Codex's shot at the most important page - the news feed.</small>
+<small><i>Codex's shot at the most important page - the news feed.</i></small>
+<br>
 <img src="img/screengrab_2.png"/>
-<small>Friend requests, poke functionality - works flawlessly.</small>
+<small><i>Friend requests, poke functionality - works flawlessly.</i></small>
+<br>
 <img src="img/screengrab_3.png"/>
-<small>A little uninventive for the design of the homepage, but does the job. </small>
+<small><i>A little uninventive for the design of the homepage, but does the job.</i></small>
