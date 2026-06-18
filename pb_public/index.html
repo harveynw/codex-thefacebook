@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>thefacebook</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="logo" href="#/">thefacebook</a>
+      <form id="quick-search" class="quick-search">
+        <input id="quick-search-input" type="search" placeholder="search">
+        <button type="submit">Search</button>
+      </form>
+      <nav id="top-links" class="top-links" hidden>
+        <a href="#/">home</a>
+        <a href="#/profile">profile</a>
+        <a href="#/friends">friends</a>
+        <a id="notification-link" class="notification-link" href="#/notifications" aria-label="notifications">
+          <span class="notification-dot" aria-hidden="true"></span>
+          <span id="notification-count" class="notification-count" hidden>0</span>
+        </a>
+        <button id="logout-button" type="button">logout</button>
+      </nav>
+    </header>
+
+    <main class="shell">
+      <aside id="left-nav" class="left-nav" hidden>
+        <div class="nav-box">
+          <a href="#/">News Feed</a>
+          <a href="#/profile">My Profile</a>
+          <a href="#/friends">Friends</a>
+          <a href="#/notifications">Notifications</a>
+          <a href="#/search">Search</a>
+          <a href="#/pokes">Pokes</a>
+        </div>
+        <div class="nav-box muted-box">
+          <strong>Network</strong>
+          <span>Harvard University</span>
+        </div>
+      </aside>
+
+      <section id="app" class="content" aria-live="polite"></section>
+    </main>
+
+    <footer class="footer">
+      a Mark Zuckerberg production<br>
+      thefacebook &copy; 2005
+    </footer>
+
+    <template id="default-avatar-template">
+      <div class="default-avatar" aria-label="default profile picture">
+        <div class="head"></div>
+        <div class="body"></div>
+      </div>
+    </template>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

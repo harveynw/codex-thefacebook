@@ -1,0 +1,14 @@
+{
+  "name": "thefacebook-2005-pocketbase-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small PocketBase + static SPA prototype inspired by thefacebook circa 2005.",
+  "scripts": {
+    "setup": "node scripts/download-pocketbase.mjs",
+    "dev": "node scripts/start.mjs",
+    "seed": "node scripts/seed.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

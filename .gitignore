@@ -1,0 +1,4 @@
+bin/
+pb_data/
+*.log
+.DS_Store
